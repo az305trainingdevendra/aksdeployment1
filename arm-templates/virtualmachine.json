@@ -2,12 +2,13 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "adminPassword": : {
-        "type": "securestring",
-        "metadata": {
-            "description": "Enter the password for the admin account on this machine"
+        "adminPassword": {
+            "type": "securestring",
+            "metadata": {
+                "description": "Enter the password for the admin account on this machine"
+            }
         }
-    }},
+    },
     "functions": [],
     "variables": {},
     "resources": [
