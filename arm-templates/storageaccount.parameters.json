@@ -9,7 +9,7 @@
             "value": "East US" 
         },
         "sku": {
-            "value": "Standard_LRS" 
+            "value": "Standard_LRS" //comm
         }
     }
 }
