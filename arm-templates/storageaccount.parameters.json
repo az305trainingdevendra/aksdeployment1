@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "globostg001dev098"
+            "value": "glob001scht"
         },
         "location": {
             "value": "East US" 
         },
         "sku": {
-            "value": "Standard_LRS" //comm
+            "value": "Standard_LRS" 
         }
     }
 }
