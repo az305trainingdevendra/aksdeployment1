@@ -46,6 +46,6 @@ jobs:
           subscriptionId: cf356559-447f-4ef5-a596-5843ea2a66de
           template: ./arm-templates/virtualmachine.json
           parameters: 
-            adminPassword="My$ecureP@ssword!"
+            adminPassword=${{secrets.AZURE_CREDENTIALS}}
           deploymentMode: incremental
 
