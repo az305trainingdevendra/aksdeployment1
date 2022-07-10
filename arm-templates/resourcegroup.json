@@ -14,7 +14,7 @@
             "metadata": {
                 "description": "Enter the name to the resource group"
             },
-            "defaultValue": "rg-githubactionsdev105"
+            "defaultValue": "rg-githubactions"
         }
     },
     "functions": [],
@@ -23,7 +23,7 @@
         {
             "name": "[parameters('resourceGroupName')]",
             "type": "Microsoft.Resources/resourceGroups",
-            "apiVersion": "2021-05-01",
+            "apiVersion": "2022-05-01",
             "location": "[parameters('location')]",
             "dependsOn": [],
             "tags": {}
