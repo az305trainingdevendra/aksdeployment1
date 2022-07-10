@@ -66,6 +66,7 @@ jobs:
       location: East US
     environment:
       name: production
+    needs: armDeployStaging
     steps:
       - uses: actions/checkout@v2
 
